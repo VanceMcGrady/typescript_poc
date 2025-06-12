@@ -1,0 +1,10 @@
+{
+  "name": "typscript_poc",
+  "license": "NOLICENSE",
+  "devDependencies": {
+    "typescript": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  }
+}
