@@ -72,8 +72,8 @@ function reduceDict<T, U>(
 }
 
 /////////////////////////////////////////
-///////////// TEST SUITE ///////////////
-//////// no need to modify these ////////
+///////////// TESTS /////////////////////
+///////////////////////////////;/////////
 /////////////////////////////////////////
 
 
@@ -84,7 +84,7 @@ const fruitsWithKgMass = mapDict(fruits, (fruit, name) => ({
   name,
 }))
 console.log("test mapDict: ", fruitsWithKgMass)
-
+// should have kg property added to each fruit
 
 // test filterDict
 const redFruits = filterDict(
